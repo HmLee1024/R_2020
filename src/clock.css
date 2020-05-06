@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Rajdhani);
+
+#font{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 3em;
+  color: White;
+}
+
+html, body{
+ background-color: #333;
+}
+
+#app{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+}
+
+.app-main{
+ width: 70%;
+ display: flex;
+ flex-wrap: wrap;
+}
+.app-main > h1{
+ width: 100%;
+ color: #fff;
+}
+.clockBox{
+ height: 100%;
+ display: flex;
+ margin: 3px;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
